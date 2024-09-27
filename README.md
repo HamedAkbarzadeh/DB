@@ -1,5 +1,11 @@
 # Usage
 
+### Instance
+```php
+$DB = new DB();
+```
+then :
+
 ### SELECT
 ```php
 $result = $DB->table('users')->select()->get();
