@@ -1,5 +1,5 @@
 # Usage
-<hr>
+
 ### SELECT
 ```php
 $result = $DB->table('users')->select()->get();
